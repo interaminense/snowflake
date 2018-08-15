@@ -6,12 +6,9 @@
   "license": "MIT",
   "dependencies": {
     "d3": "^4.11.0",
-    "next": "^6.1.1",
+    "next": "^4.0.0-beta.4",
     "react": "^16.0.0",
-    "react-dom": "^16.0.0",
-    "react-router": "^4.3.1",
-    "react-router-dom": "^4.3.1",
-    "wedeploy": "^4.5.0"
+    "react-dom": "^16.0.0"
   },
   "scripts": {
     "dev": "next",
@@ -20,7 +17,8 @@
     "deploy": "yarn run export && we deploy -p snowflake"
   },
   "devDependencies": {
-    "dotenv": "^6.0.0",
-    "flow-bin": "^0.57.2"
+    "dotenv": "^5.0.1",
+    "flow-bin": "^0.57.2",
+    "wedeploy": "^4.2.0"
   }
 }
